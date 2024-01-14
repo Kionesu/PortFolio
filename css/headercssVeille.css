@@ -1,0 +1,137 @@
+body{
+    background-color: black;
+
+}
+
+a {
+    text-decoration: none;
+    
+  }
+
+li{
+    color: rgb(156, 156, 156);
+    z-index: 1000;
+}
+
+#Veille{
+    color: white;
+}
+
+li:hover{
+    color: rgb(255, 255, 255)
+}
+
+#nav{
+    position: absolute;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    z-index: 1;
+    margin-left: 38.62rem;
+    margin-top: 0.69rem;  
+}
+
+#nav li{
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    gap: 45px;
+    z-index: 1000;
+    text-decoration: none;
+
+    
+}
+
+#nav::before{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#Portfolio{
+    position: relative;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10.44rem;
+    margin-top: 0.69rem;
+    
+}
+
+#chibi{
+    width: 2.875rem;
+    height: 2.875rem;
+    margin-left: 6.69rem;
+    z-index: 1;
+}
+
+#fusee{
+    position: absolute;
+    width: 3.875rem;
+    height: 3.875rem;
+    margin-top: -0.5rem;  
+    margin-left: 75.62rem;
+    z-index: 1;
+}
+
+#neon3{
+    width: 1850px;
+    height: 905px;
+    position: absolute;
+    width: 32.8125rem;
+    height: 32.8125rem;
+    flex-shrink: 0;
+    border-radius: 32.8125rem;
+    opacity: 0.5;
+    background: #FF60DC;
+    filter: blur(125px);
+    margin-left: 12.56rem;
+    margin-top: 21.76rem;
+}
+
+#neon2{
+    width: 1850px;
+    height: 905px;
+    position:absolute;
+    border-radius: 34.75rem;
+    opacity: 0.5;
+    background: #863FFE;
+    filter: blur(125px);
+    width: 34.75rem;
+    height: 34.75rem;
+    flex-shrink: 0;
+    margin-left: 81.20rem;
+    margin-top: 1.19rem;
+}
+
+#neon1{
+    position: absolute;
+    width: 34.625rem;
+    height: 34.625rem;
+    flex-shrink: 0;
+    border-radius: 34.625rem;
+    opacity: 0.5;
+    background: #4815C2;
+    filter: blur(125px);
+    margin-top: -18.06rem;
+    margin-right: 86.44rem;
+    z-index: -1;    
+}
+
+#etoiles{
+    position: absolute;
+    width: 1850px;
+    height: 905px;
+    flex-shrink: 0;
+    margin-top: -1rem;
+    
+}

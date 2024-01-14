@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+}
+
+
+#etoiles{
+    position: absolute;
+    width: 1850px;
+    height: 905px;
+    flex-shrink: 0;
+    margin-top: -1rem;
+    
+}
+
+
+#Test{
+    color: #EE4CDB;
+    text-align: center;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem; /* 116.667% */
+    margin-left: 48.31rem;
+    margin-top: 19.37rem;
+    z-index: 1;
+}
+
+#Gros{
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 27.56rem;
+    margin-top: 22.19rem;
+    z-index: 1;
+    
+
+}
+
+#Petit{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem; /* 155.556% */
+    width: 32.8125rem;
+    z-index: 1;
+    margin-left: 42.75rem;
+    margin-top: 29.81rem;
+}
+
+#neon3{
+    width: 1850px;
+    height: 905px;
+    position: absolute;
+    width: 32.8125rem;
+    height: 32.8125rem;
+    flex-shrink: 0;
+    border-radius: 32.8125rem;
+    opacity: 0.5;
+    background: #FF60DC;
+    filter: blur(125px);
+    margin-left: 12.56rem;
+    margin-top: 21.76rem;
+}
+
+#neon2{
+    width: 1850px;
+    height: 905px;
+    position:absolute;
+    border-radius: 34.75rem;
+    opacity: 0.5;
+    background: #863FFE;
+    filter: blur(125px);
+    width: 34.75rem;
+    height: 34.75rem;
+    flex-shrink: 0;
+    margin-left: 81.20rem;
+    margin-top: 1.19rem;
+}
+
+#neon1{
+    position: absolute;
+    width: 34.625rem;
+    height: 34.625rem;
+    flex-shrink: 0;
+    border-radius: 34.625rem;
+    opacity: 0.5;
+    background: #4815C2;
+    filter: blur(125px);
+    margin-top: -18.06rem;
+    margin-right: 86.44rem;
+    z-index: -1;
+    }
+
+#bouton{
+    position: absolute;
+    width: 12.625rem;
+    height: 4.125rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    transition: transform .1s;
+    background: var(--Dgrad-rose-violet, linear-gradient(133deg, #6D2B9D 30.08%, #EE4CDB 97.76%));
+
+    /* shadow pink */
+    box-shadow: 0px 4px 4px 0px rgba(238, 76, 219, 0.50);
+    margin-left: 52.75rem;
+    margin-top: 35.75rem;
+}
+#BoutonTxT{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 133.333% */
+    margin-top: 37.06rem;
+    margin-left: 56.55rem;
+    z-index: 1;
+    
+}
+
+#fusee{
+    position: absolute;
+    width: 3.875rem;
+    height: 3.875rem;
+    margin-top: -0.5rem;  
+    margin-left: 75.62rem;
+}
+
+#bouton:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+#Portfolio{
+    position: relative;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 150.69rem;
+    margin-top: 2.53rem;
+}

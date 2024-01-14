@@ -1,0 +1,82 @@
+#rect1{
+    position: absolute;
+    width: 32.25rem;
+    height: 14.875rem;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-left: 3rem;
+    margin-top: 16.75rem;
+    transition: transform .1s;
+
+}
+
+#rect1:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.05);
+}
+
+
+#rect2{
+    position: absolute;
+    width: 32.25rem;
+    height: 14.875rem;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-left: 42rem;
+    margin-top: 16.75rem;
+}
+
+#rect3{
+    position: absolute;
+    width: 32.25rem;
+    height: 14.875rem;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-left: 81rem;
+    margin-top: 16.75rem;
+}
+
+#rect4{
+    position: absolute;
+    width: 32.25rem;
+    height: 14.875rem;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-left: 3rem;
+    margin-top: 36.12rem;
+}
+
+#rect5{
+    position: absolute;
+    width: 32.25rem;
+    height: 14.875rem;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-left: 42rem;
+    margin-top: 36.12rem;
+}
+
+#rect6{
+    position: absolute;
+    width: 32.25rem;
+    height: 14.875rem;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-left: 81rem;
+    margin-top: 36.12rem;
+}
+
+#humain{
+    position: absolute;   
+    width: 69.4375rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2.44rem;
+    margin-left: 23rem;
+}
