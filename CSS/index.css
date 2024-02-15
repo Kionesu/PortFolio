@@ -1,0 +1,97 @@
+.Milieu {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    width: 80%; /* Ajuste la largeur à 80% de la largeur du parent pour la rendre responsive */
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto; /* Centrage horizontal */
+    margin-right: auto; /* Centrage horizontal */
+    margin-top: 12%;
+    height: 100%;
+}
+
+.Veille {
+    text-align: center;
+    font-size: 4rem; /* Taille de police ajustable pour les petits écrans via une requête média */
+    background: linear-gradient(268deg, #5200FF 12%, #FF00F5 91.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0; /* Supprime les marges par défaut pour rapprocher les textes */
+
+}
+
+.Machine {
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 6rem; /* Taille de police ajustable pour les petits écrans via une requête média */
+    font-weight: 700;
+    line-height: 1; /* Réduit l'espacement entre les lignes de texte */
+    margin: 0; /* Supprime les marges par défaut pour rapprocher les textes */
+    padding-top: 2%;
+}
+
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Appliquer l'animation au fond de .desc */
+.desc {
+    text-align: center;
+    font-size: 2rem;
+    align-items: center;
+    background: linear-gradient(268deg, #5200FF 12%, #FF00F5 91.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 80%;
+    max-width: 58.5625rem;
+    margin: 0;
+    padding-top: 2%;
+
+    /* Ajouter l'animation */
+    background-size: 200% 200%; /* Augmenter la taille pour créer un défilement */
+    animation: backgroundAnimation 10s ease infinite; /* 10 secondes de durée, effet infini */
+}
+
+/* Ajustements responsives */
+@media (max-width: 768px) {
+    .Veille {
+        font-size: 4rem; /* Réduit la taille de la police sur les petits écrans */
+    }
+    .Machine{
+        font-size: 7rem;
+    }
+
+    .desc{
+        font-size: 2rem;
+    }
+}
+
+.boutonposition{
+    display: flex;
+    justify-content: center;
+
+}
+
+.boutonstyle{
+    width: 16.25rem;
+    height: 5.3125rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    transition: transform .1s;
+    background: var(--Dgrad-rose-violet, linear-gradient(133deg, #6D2B9D 30.08%, #EE4CDB 97.76%));
+    box-shadow: 0px 4px 4px 0px rgba(238, 76, 219, 0.50);
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem; /* 103.704% */
+    margin: 0;
+    margin-top: 6%;
+}

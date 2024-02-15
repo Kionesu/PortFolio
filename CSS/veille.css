@@ -1,0 +1,298 @@
+.Milieu {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    width: 80%; /* Ajuste la largeur à 80% de la largeur du parent pour la rendre responsive */
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto; /* Centrage horizontal */
+    margin-right: auto; /* Centrage horizontal */
+    margin-top: 12%;
+    height: 100%;
+}
+
+.Veille {
+    text-align: center;
+    font-size: 4rem; /* Taille de police ajustable pour les petits écrans via une requête média */
+    background: linear-gradient(268deg, #5200FF 12%, #FF00F5 91.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0; /* Supprime les marges par défaut pour rapprocher les textes */
+
+}
+
+.Machine {
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 8rem; /* Taille de police ajustable pour les petits écrans via une requête média */
+    font-weight: 700;
+    line-height: 1; /* Réduit l'espacement entre les lignes de texte */
+    margin: 0; /* Supprime les marges par défaut pour rapprocher les textes */
+    padding-top: 2%;
+}
+
+.desc {
+    text-align: center;
+    font-size: 2rem; /* Taille de police ajustable pour les petits écrans via une requête média */
+    align-items: center;
+    background: linear-gradient(268deg, #5200FF 12%, #FF00F5 91.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 80%; /* Ajuste la largeur à 80% de la largeur de la div pour la rendre responsive */
+    max-width: 58.5625rem; /* Fixe une largeur maximale pour éviter que le texte devienne trop grand sur les grands écrans */
+    margin: 0; /* Supprime les marges par défaut pour rapprocher les textes */
+    padding-top: 2%;
+
+    
+}
+
+/* Ajustements responsives */
+@media (max-width: 768px) {
+    .Veille {
+        font-size: 4rem; /* Réduit la taille de la police sur les petits écrans */
+    }
+    .Machine{
+        font-size: 7rem;
+    }
+
+    .desc{
+        font-size: 2rem;
+    }
+}
+
+
+.Scroll{
+    display: flex;
+    width: 30.808rem;
+    height: 7.76169rem;
+    padding: 0rem 4.63413rem 0rem 4.64619rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8.59756rem;
+    border: 3.821px solid #FFF;
+    backdrop-filter: blur(26.748010635375977px);
+    color: #FFF;
+    font-size: 4vh;
+    margin-top: 5%;
+}
+
+.fleche1{
+    display: flex;
+    fill: #FFF;
+    backdrop-filter: blur(26.748010635375977px);
+    margin-top: 10rem;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+    position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 20rem;
+}
+section::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%;
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 48%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+#section05 a {
+  padding-top: 70px;
+}
+#section05 a span {
+  position: absolute;
+  left: 42%;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.er{
+  display: inline-flex;
+  align-items: center;
+  text-align: left;
+  gap: 2.5rem;
+  margin-left: 15%;
+  flex-wrap: wrap;
+  
+}
+
+.dimension1{
+  width: 47.5625rem;
+  height: 28rem;
+  max-width: auto; /* S'assure que l'image ne dépasse pas son conteneur */
+  width: auto;
+  border-radius: 1.4375rem;
+  
+  
+}
+
+.kwa{
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-family: Poppins;
+  align-items: flex-start;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5rem; /* 100% */
+  letter-spacing: -0.008rem;
+  max-width: 37rem; /* Fixe une largeur maximale pour éviter que le texte devienne trop grand sur les grands écrans */
+
+}
+
+.description{
+  color: #B2B2B9;
+  font-family: poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem; /* 160% */
+  letter-spacing: -0.025rem;
+  max-width: 37rem; 
+  
+}
+
+.titredesc{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: rem;
+  
+
+}
+
+.mainend{
+  margin-bottom: 14rem;
+  
+}
+
+.Methode{
+  margin-bottom: 10rem;
+  background-clip: text;
+  text-align: center;
+  background: var(--Rose-bleau, linear-gradient(268deg, #5200FF 12%, #FF00F5 91.75%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+.tableaularg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex: 1 0 0;
+  margin: 0%;
+  
+
+}
+
+.tableaulong{
+  display: flex;
+  width: 71.25rem;
+  align-items: flex-start;
+  gap: 2.5rem;
+  max-width: auto;
+  margin: 0%;
+}
+
+.norman{
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  margin: 0%;
+
+}
+
+.ecartdebut{
+  margin-bottom: 100%;
+}
+
+.svg{
+  width: 36.5625rem;
+height: 24.375rem;
+  fill: var(--Rose-bleau, linear-gradient(268deg, #5200FF 12%, #FF00F5 91.75%));
+}

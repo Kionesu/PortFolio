@@ -1,0 +1,108 @@
+
+  
+  a {
+    color: hsl(250, 84%, 54%);
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  img, video, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* -------------------------------- 
+  
+  Icons 
+  
+  -------------------------------- */
+  
+  .cd-icon {
+    --size: 1em;
+    font-size: var(--size);
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+    color: inherit;
+    fill: currentColor;
+    line-height: 1;
+    flex-shrink: 0;
+    max-width: initial;
+  }
+  
+  /* --------------------------------
+  
+  Component 
+  
+  -------------------------------- */
+  
+  .thank-you__icon {
+    --size: 96px;
+    color: hsl(170, 78%, 36%);
+  }
+  
+  .thank-you__paragraph {
+    line-height: 1.4;
+    color: hsl(225, 4%, 47%);
+  }
+  
+  /* -------------------------------- 
+  
+  Utilities 
+  
+  -------------------------------- */
+  
+  .cd-position-relative {
+    position: relative;
+  }
+  
+  .cd-z-index-1 {
+    z-index: 1;
+  }
+  
+  .cd-margin-bottom-xs {
+    margin-bottom: 1rem;
+  }
+  
+  .cd-padding-y-2xl {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+  .cd-container {
+    width: calc(100% - 3rem);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cd-max-width-adaptive-sm {
+    max-width: 32rem;
+  }
+  
+  @media (min-width: 48rem) {
+    .cd-max-width-adaptive-sm {
+      max-width: 48rem;
+    }
+  }
+  
+  .cd-text-center {
+    text-align: center;
+  }
+  
+  /* link */
+  .cd-link {
+    color: hsl(250, 84%, 54%);
+    text-decoration: none;
+    background-image: linear-gradient(to right, hsl(250, 84%, 54%) 50%, hsla(250, 84%, 54%, 0.2) 50%);
+    background-size: 200% 1px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    transition: background-position 0.2s;
+  }
+  
+  .cd-link:hover {
+    background-position: 0% 100%;
+  }
