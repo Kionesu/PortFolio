@@ -42,7 +42,7 @@ body{
 
 .desc {
     text-align: center;
-    font-size: 1.50vw;
+    font-size: 1.0vw;
     align-items: center;
     background: linear-gradient(268deg, #5200FF 12%, #FF00F5 91.75%);
     background-clip: text;
@@ -56,7 +56,7 @@ body{
     animation: backgroundAnimation 10s ease infinite; 
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .Veille {
         font-size: 4vh; 
     }
@@ -65,8 +65,14 @@ body{
     }
 
     .desc{
-        font-size: 2vh;
+        font-size: 1.80vh;
     }
+    .boutonstyle{
+        padding: 0.1vh;
+        width: 2vw;
+        font-size: 13vw;
+    }
+    
 }
 
 .boutonposition{
@@ -76,18 +82,14 @@ body{
 }
 
 .boutonstyle{
-    width: 16.25rem;
-    height: 5.3125rem;
-    flex-shrink: 0;
+    width: 10vw;
+    padding: 1vh;
     border-radius: 0.9125rem;
     transition: transform .1s;
     background: var(--Dgrad-rose-violet, linear-gradient(133deg, #6D2B9D 30.08%, #EE4CDB 97.76%));
     color: #FFF;
     text-align: center;
     font-family: Poppins;
-    font-size: 1.6875rem;
-    font-style: normal;
-    line-height: 1.75rem; 
-    margin: 0;
+    font-size: 1vw;
     border: none;
 }
