@@ -11,6 +11,8 @@ body{
     align-items: center;
     gap: 1rem;
     margin-top: 15%;
+    margin-right: 6%;
+    margin-left: 6%
 }
 
 .Veille {
@@ -92,7 +94,9 @@ body{
         .boutonstyle {
           font-size: 5vw;
           width: 44vw;
-          /* Assuming this is the intended style */
+        }
+        .Milieu{
+            margin-top: 45%;
         }
       }
 
