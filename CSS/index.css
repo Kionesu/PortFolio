@@ -40,7 +40,7 @@ body{
 
 .desc {
     text-align: center;
-    font-size: 1.0vw;
+    font-size: 1.50vw;
     align-items: center;
     background: linear-gradient(268deg, #5200FF 12%, #FF00F5 91.75%);
     background-clip: text;
@@ -78,7 +78,7 @@ body{
 
     .boutonstyle {
         width: 14vw;
-        font-size: 1.80vw;
+        font-size: 1.40vw;
         border-radius: 0.9125rem;
         transition: transform 0.1s;
         background: var(--Dgrad-rose-violet, linear-gradient(133deg, #6D2B9D 30.08%, #EE4CDB 97.76%));
@@ -95,3 +95,16 @@ body{
           /* Assuming this is the intended style */
         }
       }
+
+      @media (min-width: 768px) and (max-width: 1524px) {
+        .Veille {
+            font-size: 5vh; 
+        }
+        .Esteban{
+            font-size: 4vh;
+        }
+    
+        .desc{
+            font-size: 3vh;
+        }
+    }
