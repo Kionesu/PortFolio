@@ -6,8 +6,7 @@ body{
 }
 
 .Milieu {
-    font-family: 'Poppins', sans-serif;
-    display: inline-flex;
+        display: inline-flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
@@ -16,13 +15,12 @@ body{
 
 .Veille {
     text-align: center;
-    font-size: 4rem; 
+    font-size: 5vh; 
     background: linear-gradient(268deg, #5200FF 12%, #FF00F5 91.75%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0%;
-
 }
 
 .Esteban {
@@ -56,40 +54,44 @@ body{
     animation: backgroundAnimation 10s ease infinite; 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+
+    
+    
     .Veille {
         font-size: 4vh; 
     }
     .Esteban{
-        font-size: 5vh;
+        font-size: 3vh;
     }
 
     .desc{
-        font-size: 1.80vh;
+        font-size: 2vh;
     }
-    .boutonstyle{
-        padding: 0.1vh;
-        width: 2vw;
-        font-size: 13vw;
     }
-    
-}
 
-.boutonposition{
-    display: flex;
-    justify-content: center;
+    .boutonposition{
+        display: flex;
+        justify-content: center;
 
-}
+    }
 
-.boutonstyle{
-    width: 10vw;
-    padding: 1vh;
-    border-radius: 0.9125rem;
-    transition: transform .1s;
-    background: var(--Dgrad-rose-violet, linear-gradient(133deg, #6D2B9D 30.08%, #EE4CDB 97.76%));
-    color: #FFF;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 1vw;
-    border: none;
-}
+    .boutonstyle {
+        width: 14vw;
+        font-size: 1.80vw;
+        border-radius: 0.9125rem;
+        transition: transform 0.1s;
+        background: var(--Dgrad-rose-violet, linear-gradient(133deg, #6D2B9D 30.08%, #EE4CDB 97.76%));
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        border: none;
+      }
+      
+      @media only screen and (max-width: 768px) {
+        .boutonstyle {
+          font-size: 5vw;
+          width: 44vw;
+          /* Assuming this is the intended style */
+        }
+      }
